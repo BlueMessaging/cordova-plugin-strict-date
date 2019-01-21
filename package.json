@@ -1,7 +1,7 @@
 {
   "name": "cordova-plugin-strict-date",
   "version": "0.1.1",
-  "description": "StrictDate plugin which verifies if automatic system time-date is enabled",
+  "description": "AutomaticDateTime plugin which verifies if automatic system time-date is enabled",
   "cordova": {
     "id": "cordova-plugin-strict-date",
     "platforms": []

@@ -7,10 +7,10 @@ El presente plugin regresa una cadena booleana `"true"` o `"false"` dependiendo 
 * Si el teléfono sí tiene la Fecha/Hora en modo automático regresará `"true"`
 * Si el teléfono no tiene la Fecha/Hora en modo automático regresará `"false"`
 
-Para realizar una petición al plugin, se debe llamar el método `isAutomaticDateTimeEnabled` el cual pertenece a `StrictDate`. Abajo se puede observar un ejemplo;
+Para realizar una petición al plugin, se debe llamar el método `isEnabled` el cual pertenece a `AutomaticDateTime`. Abajo se puede observar un ejemplo;
 
 ```javascript
-	StrictDate.isAutomaticDateTimeEnabled(callback);
+	AutomaticDateTime.isEnabled(callback);
 	
 	function callback(response) {
 		console.log("Is Automatic Date/Time enabled?: " + response) 

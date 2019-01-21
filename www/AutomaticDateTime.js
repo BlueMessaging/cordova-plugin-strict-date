@@ -4,17 +4,17 @@ function StrictDateTask() {
 	var self = this;
 }
 
-StrictDateTask.prototype.isAutomaticDateTimeEnabled = function(callback) {
+StrictDateTask.prototype.isEnabled = function(callback) {
 	exec(function(result) {
         callback(result);        
     }, 
     function(error) {
         console.log(error);
-    }, 'StrictDate', 'isAutomaticDateTimeEnabled', []);
+    }, 'AutomaticDateTime', 'isEnabled', []);
 };
 
 StrictDateTask.prototype.toString = function() {
-	return "StrictDate ready for action";
+	return "AutomaticDateTime ready for action";
 };
 
 module.exports = new StrictDateTask();
